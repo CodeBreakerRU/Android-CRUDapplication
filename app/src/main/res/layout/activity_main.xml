@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <include layout="@layout/my_video_background" />
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <Button
+            android:id="@+id/btnUserLogin"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="132dp"
+            android:background = "@drawable/roundedbuttoncolor3"
+            android:onClick="btnLoginMain_Click"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnUserRegister"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="66dp"
+            android:background = "@drawable/roundedbuttoncolor1"
+            android:onClick="btnRegisterMain_Click"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+<<<<<<< HEAD
+       <!-- <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_above="@+id/btnUserLogin"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="63dp"
+            android:src="@mipmap/user_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@mipmap/user_logo" />-->
+=======
+        <!-- <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="220dp"
+             android:layout_height="220dp"
+             android:layout_above="@+id/btnUserLogin"
+             android:layout_alignParentStart="true"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentEnd="true"
+             android:layout_marginStart="82dp"
+             android:layout_marginTop="48dp"
+             android:layout_marginEnd="82dp"
+             android:layout_marginBottom="63dp"
+             android:src="@mipmap/user_logo"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent"
+             tools:srcCompat="@mipmap/user_logo" />-->
+>>>>>>> 7f8b9dba7b3ba4a8c383fe84f7c288377faa23ba
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

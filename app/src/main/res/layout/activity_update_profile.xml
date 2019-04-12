@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfileActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/txtNameUpdateProfile"
+            style="@android:style/Widget.Material.Light.EditText"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/txtCityUpdateProfile"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="175dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtAgeUpdateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="111dp"
+            android:ems="10"
+            android:hint="Birthday"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/txtPostalCodeUpdateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="241dp"
+            android:ems="10"
+            android:hint="Postal code"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtPhoneUpdateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="306dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone" />
+
+
+        <Button
+            android:id="@+id/btnUpdateProfile"
+            android:layout_width="259dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginBottom="89dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
