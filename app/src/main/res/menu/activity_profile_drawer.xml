@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/baseline_account_circle_black_48dp"
+            android:title="My profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/baseline_edit_black_48dp"
+            android:title="Edit profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/round_chat_black_48dp"
+                android:title="Chat" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/round_info_black_48dp"
+                android:title="Reset profile data" />
+        </menu>
+    </item>
+
+</menu>
