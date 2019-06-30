@@ -38,6 +38,7 @@
             android:ems="10"
             android:fontFamily="sans-serif"
             android:inputType="textEmailAddress"
+            android:text="admin@rileyghost.com"
             android:textStyle="bold" />
 
         <TextView
@@ -82,6 +83,7 @@
             android:ems="10"
             android:fontFamily="sans-serif"
             android:inputType="textPassword"
+            android:text="123456"
             android:textStyle="bold" />
 
         <Button

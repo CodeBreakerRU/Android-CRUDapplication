@@ -23,10 +23,10 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
 
-   // implementation 'com.google.firebase:firebase-core:16.0.6'
-   // implementation 'com.google.firebase:firebase-database:16.0.5'
+    // implementation 'com.google.firebase:firebase-core:16.0.6'
+    // implementation 'com.google.firebase:firebase-database:16.0.5'
     //implementation 'com.google.firebase:firebase-storage:16.0.5'
-   // implementation 'com.google.firebase:firebase-auth:16.1.0'
+    // implementation 'com.google.firebase:firebase-auth:16.1.0'
 
     //implementation 'com.google.firebase:firebase-messaging:17.3.4'
 
@@ -48,6 +48,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-functions:18.0.0'
     implementation 'com.google.firebase:firebase-database:18.0.0'
     implementation 'com.google.firebase:firebase-core:17.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.firebase:firebase-messaging:19.0.1'
 
 
 }
