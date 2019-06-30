@@ -210,6 +210,9 @@ public class ProfileActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_slideshow) {
 
+            Intent i = new Intent(ProfileActivity.this, ImageActivity.class);
+            startActivity(i);
+
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {

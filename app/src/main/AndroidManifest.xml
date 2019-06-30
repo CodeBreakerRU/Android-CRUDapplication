@@ -11,36 +11,36 @@
     <dist:module dist:instant="true" />
 
     <application
-
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".TestData"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".MyProfileActivity"
+        <activity
+            android:name=".TestData"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyProfileActivity"
             android:label="My Profile"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".UpdateProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateProfileActivity"
             android:label="Edit profile"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ProfileActivity"
             android:label="My Profile"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RegistrationActivity"
             android:label="Sign Up"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LoginActivity"
             android:label="Login"
-            android:screenOrientation="portrait"/>
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
@@ -54,6 +54,8 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".ImageActivity"></activity>
     </application>
 
 </manifest>

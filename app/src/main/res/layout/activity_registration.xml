@@ -7,6 +7,8 @@
     android:screenOrientation="portrait"
     tools:context=".RegistrationActivity">
 
+    <include layout="@layout/video_background2" />
+
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
@@ -22,25 +24,30 @@
         <EditText
             android:id="@+id/txtEmailRegister"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="46dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="26dp"
             android:layout_marginTop="151dp"
-            android:layout_marginEnd="26dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/edittext_bg"
             android:ems="10"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
             android:inputType="textEmailAddress" />
 
         <TextView
-            android:id="@+id/txtView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="28dp"
             android:layout_marginTop="122dp"
+            android:fontFamily="@font/fredoka_one"
             android:text="Email"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
@@ -51,21 +58,27 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="28dp"
             android:layout_marginTop="218dp"
+            android:fontFamily="@font/fredoka_one"
             android:text="Password"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/txtPasswordRegister"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="333dp"
+            android:layout_height="48dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="26dp"
-            android:layout_marginTop="256dp"
-            android:layout_marginEnd="26dp"
+            android:layout_marginTop="254dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/edittext_bg"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:fontFamily="sans-serif"
+            android:inputType="textPassword"
+            android:textStyle="bold"  />
 
         <Button
             android:id="@+id/button"
