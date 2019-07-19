@@ -1,9 +1,12 @@
 # Android CRUD Operation Application with Google Firebase
 
-Register } Using firebase authentication
-Login } Using firebase authentication
+<b> Register </b> <br /> Using firebase authentication <br />
+<b> Login </b> <br /> Using firebase authentication 
 
-Insert Data}
-Read Data}
-Update Data}
-Delete Data}    Using Firebase Realtime Database
+
+<b> Insert Data </b> <br />
+<b> Read Data </b> <br />
+<b> Update Data </b> <br />
+<b> Delete Data </b> <br />   Using Firebase Realtime Database
+
+<b> Upload Images </b> <br /> Using Firebase Storage
